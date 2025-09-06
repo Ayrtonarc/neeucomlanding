@@ -1,0 +1,29 @@
+.AboutCreator {
+  background: #f5f6fa;
+  color: #181c2a;
+  padding: 56px 8vw 40px 8vw;
+  text-align: center;
+  border-top: 4px solid #0057ff;
+  margin: 0 0 32px 0;
+}
+.AboutCreator-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.AboutCreator h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0057ff;
+  margin-bottom: 18px;
+}
+.AboutCreator p {
+  font-size: 1.18rem;
+  margin-bottom: 14px;
+  color: #222;
+}
+.AboutCreator b {
+  color: #00b894;
+}
+.AboutCreator i {
+  color: #0057ff;
+}

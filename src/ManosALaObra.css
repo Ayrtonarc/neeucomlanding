@@ -1,0 +1,46 @@
+.ManosALaObra {
+  background: #fff;
+  color: #181c2a;
+  padding: 56px 8vw 40px 8vw;
+  text-align: center;
+  border-top: 4px solid #ffb300;
+  border-bottom: 4px solid #00ffa3;
+  margin: 0 0 32px 0;
+}
+.ManosALaObra-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.ManosALaObra h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ffb300;
+  margin-bottom: 18px;
+}
+.ManosALaObra p {
+  font-size: 1.18rem;
+  margin-bottom: 14px;
+  color: #222;
+}
+.ManosALaObra b {
+  color: #0057ff;
+}
+.ManosALaObra-cta {
+  display: inline-block;
+  background: #ffb300;
+  color: #fff;
+  padding: 14px 38px;
+  border-radius: 24px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(255,179,0,0.10);
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.ManosALaObra-cta:hover {
+  background: #181c2a;
+  color: #ffb300;
+  transform: translateY(-2px) scale(1.04);
+}

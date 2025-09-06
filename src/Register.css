@@ -1,0 +1,89 @@
+.Register {
+  background: #181c2a;
+  color: #fff;
+  padding: 64px 8vw 48px 8vw;
+  text-align: center;
+}
+.Register-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #00ffa3;
+  margin-bottom: 38px;
+}
+.Register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  max-width: 340px;
+  margin: 0 auto 18px auto;
+}
+.Register-form input {
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.08rem;
+  width: 100%;
+  background: #23263a;
+  color: #fff;
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0,255,163,0.04);
+}
+.Register-btn {
+  background: linear-gradient(90deg, #00ffa3 0%, #0057ff 100%);
+  color: #181c2a;
+  padding: 12px 0;
+  border-radius: 24px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  width: 100%;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+.Register-btn:hover {
+  background: linear-gradient(90deg, #0057ff 0%, #00ffa3 100%);
+  color: #fff;
+  transform: translateY(-2px) scale(1.04);
+}
+.Register-divider {
+  color: #888;
+  margin: 18px 0 10px 0;
+  font-size: 1.1rem;
+}
+.Register-wallet {
+  background: #fff;
+  color: #181c2a;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 32px;
+  font-size: 1.08rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,255,163,0.10);
+  transition: background 0.2s, color 0.2s;
+}
+.Register-wallet:hover {
+  background: #00ffa3;
+  color: #181c2a;
+}
+.Register-wallet-demo {
+  margin-top: 12px;
+  color: #00ffa3;
+  font-size: 1rem;
+}
+.Register-message {
+  margin-top: 10px;
+  color: #fff;
+  background: #0057ff;
+  border-radius: 8px;
+  padding: 8px 18px;
+  display: inline-block;
+  font-size: 1rem;
+}
+@media (max-width: 900px) {
+  .Register-form {
+    max-width: 98vw;
+  }
+}

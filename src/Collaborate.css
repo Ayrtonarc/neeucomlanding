@@ -1,0 +1,98 @@
+.Collaborate {
+  background: linear-gradient(120deg, #00ffa3 0%, #0057ff 100%);
+  color: #181c2a;
+  padding: 64px 8vw 48px 8vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.Collaborate-content {
+  flex: 2 1 340px;
+  max-width: 540px;
+}
+.Collaborate-content h2 {
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+.Collaborate-content p {
+  font-size: 1.18rem;
+  margin-bottom: 18px;
+}
+.Collaborate-list {
+  list-style: disc inside;
+  margin-bottom: 28px;
+  color: #181c2a;
+  font-size: 1.08rem;
+  padding-left: 0;
+}
+.Collaborate-cta {
+  display: inline-block;
+  background: #181c2a;
+  color: #00ffa3;
+  padding: 14px 38px;
+  border-radius: 24px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(24,28,42,0.10);
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.Collaborate-cta:hover {
+  background: #fff;
+  color: #0057ff;
+  transform: translateY(-2px) scale(1.04);
+}
+.Collaborate-demo {
+  flex: 1 1 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.Collaborate-card {
+  background: #fff;
+  color: #181c2a;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,87,255,0.07);
+  padding: 28px 22px 20px 22px;
+  width: 220px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.Collaborate-card span {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+.Collaborate-card h3 {
+  font-size: 1.08rem;
+  margin-bottom: 8px;
+  color: #0057ff;
+  font-weight: 700;
+}
+.Collaborate-card p {
+  color: #222;
+  font-size: 1.01rem;
+}
+@media (max-width: 900px) {
+  .Collaborate {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+  .Collaborate-content, .Collaborate-demo {
+    max-width: 98vw;
+    width: 100%;
+  }
+  .Collaborate-card {
+    width: 95%;
+    min-width: 0;
+  }
+}

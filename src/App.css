@@ -1,5 +1,9 @@
+
 .App {
   text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f6fa;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -13,15 +17,106 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+/* HERO estilo 2016 */
+.App-hero {
+  background: #3498db;
+  color: #fff;
+  padding: 80px 20px 60px 20px;
+  border-radius: 0 0 32px 32px;
+  box-shadow: 0 4px 24px rgba(52,152,219,0.10);
+  margin-bottom: 32px;
+}
+.App-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  letter-spacing: -1px;
+}
+.App-subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 36px;
+  font-weight: 400;
+}
+.App-cta2016 {
+  display: inline-block;
+  background: #e67e22;
+  color: #fff;
+  padding: 18px 48px;
+  border-radius: 32px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 2px 12px rgba(230,126,34,0.13);
+  transition: background 0.2s, transform 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.App-cta2016:hover {
+  background: #d35400;
+  transform: translateY(-2px) scale(1.04);
+}
+
+/* SECCIÓN TARJETAS estilo 2016 */
+.App-section2016 {
+  margin: 0 auto 0 auto;
+  max-width: 900px;
+  background: none;
+  padding: 0 24px 48px 24px;
+}
+.App-section-title {
+  color: #222;
+  margin-bottom: 32px;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+.App-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+.App-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(44,62,80,0.10);
+  padding: 32px 28px 24px 28px;
+  width: 260px;
+  min-height: 220px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.App-card:hover {
+  box-shadow: 0 8px 32px rgba(44,62,80,0.18);
+  transform: translateY(-4px) scale(1.03);
+}
+.App-card span {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+.App-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #3498db;
+  font-weight: 600;
+}
+.App-card p {
+  color: #555;
+  font-size: 1.05rem;
+}
+
+
+/* ...el resto de estilos permanece igual... */
+
+.App-footer {
+  margin-top: 48px;
+  padding: 24px 0 12px 0;
+  color: #64748b;
+  font-size: 1rem;
 }
 
 .App-link {

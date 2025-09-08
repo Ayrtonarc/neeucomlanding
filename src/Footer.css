@@ -1,9 +1,18 @@
 .Footer {
-  background: #181c2a;
-  color: #fff;
-  padding: 32px 8vw 18px 8vw;
+  background: #f5f6fa;
+  color: #222;
+  padding: 32px 8vw 24px 8vw;
+  border-radius: 32px;
+  box-shadow: 0 2px 32px rgba(0,0,0,0.08);
+  font-family: 'SF Pro Display', 'Inter', 'Segoe UI', Arial, sans-serif;
   text-align: center;
-  margin-top: 0;
+}
+.Footer-logo {
+  color: #222;
+  font-family: 'SF Pro Display', 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 12px;
 }
 .Footer-links {
   display: flex;
@@ -13,14 +22,14 @@
   flex-wrap: wrap;
 }
 .Footer-links a {
-  color: #00ffa3;
+  color: #222;
+  font-family: 'SF Pro Display', 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin: 0 12px;
   text-decoration: none;
-  font-size: 1.08rem;
-  font-weight: 500;
   transition: color 0.2s;
 }
 .Footer-links a:hover {
-  color: #0057ff;
+  color: #555;
 }
 .Footer-social {
   display: flex;
@@ -30,7 +39,7 @@
 }
 .Footer-social-icon {
   font-size: 1.5rem;
-  color: #fff;
+  color: #ff5252;
   transition: color 0.2s;
   text-decoration: none;
 }
@@ -50,7 +59,8 @@
   vertical-align: middle;
 }
 .Footer-copy {
-  color: #cbd5e1;
-  font-size: 1rem;
-  margin-top: 8px;
+  color: #555;
+  font-family: 'SF Pro Display', 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-size: 0.98rem;
+  margin-top: 18px;
 }

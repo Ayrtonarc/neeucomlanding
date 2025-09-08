@@ -2,7 +2,9 @@
 
 import './App.css';
 import Navbar from './Navbar';
-import Hero from './Hero';
+
+import Hero from './HeroNuevo';
+import './HeroNuevo';
 import Features from './Features';
 import HowItWorks from './HowItWorks';
 import Testimonials from './Testimonials';
@@ -16,8 +18,9 @@ import AboutCreator from './AboutCreator';
 function App() {
   return (
     <div className="App">
+
       <Navbar />
-      <Hero />
+  <Hero />
       <Features />
       <HowItWorks />
       <Testimonials />

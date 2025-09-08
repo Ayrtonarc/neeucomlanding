@@ -27,11 +27,11 @@ function Testimonials() {
   return (
     <section className="Testimonials" id="testimonios">
       <h2 className="Testimonials-title">Testimonios y confianza</h2>
-      <div className="Testimonials-cards">
+      <div className="Testimonials-list">
         {testimonials.map((t, i) => (
           <div className="Testimonials-card" key={i}>
-            <p className="Testimonials-text">“{t.text}”</p>
-            <span className="Testimonials-name">{t.name}</span>
+            <p className="Testimonials-card-text">“{t.text}”</p>
+            <span className="Testimonials-card-name">{t.name}</span>
           </div>
         ))}
       </div>
